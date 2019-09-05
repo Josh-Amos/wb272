@@ -1,0 +1,6 @@
+print("hydrogen sulphide")
+print("left\\right")
+print("They\'ll hibernate during the winter.")
+print("\"Absolutely not,\" he said.")
+print("\"He said, \'Absolutely not,\'\" recalled Sally.")
+print("Now is the winter of our discontent\nMade glorious summer by this sun of York;\nAnd all the clouads that lour\'d upon our house\nIn the deep bosom of the ocean buried.")
