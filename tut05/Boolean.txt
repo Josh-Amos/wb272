@@ -1,0 +1,48 @@
+# Question 1: #
+###############
+
+a) True
+b) True
+c) True
+d) True
+e) True
+f) False
+g) False
+
+# Question 2: #
+###############
+
+a) x and y
+b) not x
+c) x or y
+
+# Question 3: #
+###############
+
+Continue from here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

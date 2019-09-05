@@ -1,0 +1,15 @@
+Question: 
+1 a) math.fabs(math.trunc(-4.3)) => returns 4.0 (float)
+    OR abs(round(-4.3)) => returns 4 (Integer)
+  b) math.ceil(math.sin(34.5)) => returns 1
+
+2 a) calendar.leapdays(2000,2050) => returns 13
+  b) calendar.leapdays(2019,9,13) => returns 4 (Friday)
+  
+3 a) "boolean".capitalize()
+  b) 'CO2 H20'.find("2") [Lowest index- first occurence] 
+     NOTE: 'CO2 H20'.find("2",0,6)
+  c) 'CO2 H20'.rfind("2") [Highest index - last occurence]
+     NOTE: 'CO2 H20'.rfind("2",0,6)
+  d) 'C02 NO2 H20'.find("2",'C02 NO2 H20'.find("2") + 1)
+  e) "Boolean"[0].islower() => returns False

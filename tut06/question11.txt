@@ -1,0 +1,2 @@
+With the use of floats: precision limit at: 15 floating-points (38 Iterations)
+With the use of Decimals: precision limit at: 27 float-points (65 Iterations)
