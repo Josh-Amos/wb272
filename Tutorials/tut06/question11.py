@@ -11,6 +11,7 @@ def phi_deci(d):
 		print("Enter a value for d, where d > 1")
 	else:
 		x = 1 * pow(10,-d)
+		#x = 10e-15
 		#print(x)
 		#prec = "0." + ("0" * (d - 1)) + "1"
 		#p = float(prec)
@@ -19,9 +20,6 @@ def phi_deci(d):
 			F.append(a)
 
 		for i in range(2, len(F)):
-			if ((i + 2) == len(F) - 1):
-				a = F[i - 1] + F[i - 2]
-				F.append(a)
 			phi1 = Decimal(F[i + 1]) / Decimal(F[i])
 			phi2 = Decimal(F[i + 2]) / Decimal(F[i + 1])
 			if (abs(phi2 - phi1) <= x):

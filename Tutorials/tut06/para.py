@@ -3,7 +3,7 @@ def parallelogram(s):
 	v = ""
 	for i in range(0, len(s)):
 		w = w + s[i]
-		v = "{:>{l}}".format(w, l=len(s))
+		v = "{:^{l}}".format(w, l=len(s))
 		if (w == s):
 			print(w)
 			for j in range(1, len(s)):
