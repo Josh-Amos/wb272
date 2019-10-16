@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-N = N
+N = 10
 hist = [0] * N
 
 def process(marks, s):
@@ -73,7 +73,7 @@ def round5(x):
 
 def plot():
 	width = 1.0
-	plt.bar(np.arange(0, N), hist, width/3., color ="orange")
+	plt.bar(np.arange(0, N), hist, width, color ="orange")
 	plt.xlabel("Bins")
 	plt.ylabel("Frequency counts")
 	plt.xticks(np.arange(0, N))
