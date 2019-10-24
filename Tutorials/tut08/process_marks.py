@@ -34,6 +34,7 @@ def process(marks, s):
 	
 	hist[int(FM//(100/N))] += 1
 	s = s + "," + str(FM) + "\n"
+	
 	return s
 
 
@@ -77,6 +78,7 @@ def plot():
 	plt.xlabel("Bins")
 	plt.ylabel("Frequency counts")
 	plt.xticks(np.arange(0, N))
+	plt.title("A HISTOGRAM!")
 	plt.show()
 
 if __name__ == "__main__":
